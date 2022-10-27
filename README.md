@@ -4,9 +4,14 @@ Splits PDFs according to key words
 
 # TODO's
 
-- take in keyword(s), pdf file name (and path as arguments)
-- split pdf
-- save pdfs back to directory
+- ~~take in keyword(s), pdf file name and path as arguments~~
+- ~~save each section until keyword as its own pdf~~
+- ~~save pdfs back to directory~~
+- allow arg[3] to be used as output name if it exists, otherwise, use "section\_"
+- output text summary of pages used as splits
+- output first 20 words on each page used as a split? Last 20 words?
+- pick up words on document... Header? to name each file distinctly
+- or allow user to input list as names? (No)
 
 ## Potential complications
 
