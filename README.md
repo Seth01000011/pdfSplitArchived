@@ -23,5 +23,6 @@ Splits PDFs according to key words
 - set up virtual environment in cwd
   py -m venv ./
   - execute with source ./bin/activate
+  - exit venv with deactivate
 - install PyPDF2 with
   pip install PyPDF2
