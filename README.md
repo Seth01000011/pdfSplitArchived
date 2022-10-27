@@ -2,6 +2,12 @@
 
 Splits PDFs according to key words
 
+# Usage
+
+- Place pdfSplitter in directory with pdf to be split
+- Use in the terminal with:
+  $ python3 pdfSplitter.py [filename.pdf] [string to end section on]
+
 # TODO's
 
 - ~~take in keyword(s), pdf file name and path as arguments~~
