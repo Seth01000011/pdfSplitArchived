@@ -4,8 +4,7 @@ Splits PDFs according to key words
 
 ## Current set up
 
-- set up virtual environment in current working directory with
-  $ python3 -m venv ./
+- set up virtual environment in current working directory with $ python3 -m venv ./
   - execute virtual environment with $ source ./bin/activate
     - when done splitting pdfs, exit venv with $ deactivate
 - install PyPDF2 with
