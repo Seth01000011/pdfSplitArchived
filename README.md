@@ -1,12 +1,14 @@
 # pdfSplitter
 
-Splits PDFs according to key words
+Splits PDFs according to keyword(s)
 
 # Usage
 
 - Place pdfSplitter in directory with pdf to be split
 - Use in the terminal with:
   $ python3 pdfSplitter.py [filename.pdf] [string to end section on]
+- pdfSplitter will create a subdirectory named "./split*pdfs/" and output
+  the various sections as "section*[number].pdf"
 
 # TODO's
 
@@ -18,11 +20,12 @@ Splits PDFs according to key words
 - output first 20 words on each page used as a split? Last 20 words?
 - pick up words on document... Header? to name each file distinctly
 - or allow user to input list as names? (No)
+- allow keyword to be a list of keywords, and split on finding any
+  of them in the document
 
 ## Potential complications
 
-- poor text encoding or OCR
-- multiple references to same keyword on one page
+- poor text encoding or OCR causing a failure to identify or misidentification
 
 ## Current set up
 
