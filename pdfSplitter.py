@@ -12,7 +12,7 @@ in_pdf = PdfReader(sys.argv[1])
 out_pdf = PdfWriter()
 page_breaks = []
 
-if not Path("./split_pdfs/"):
+if not Path("./split_pdfs/").is_dir():
   os.makedirs("./split_pdfs/")
 
 def writeFile(page_number):

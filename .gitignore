@@ -3,3 +3,9 @@ include
 lib
 lib64
 split_pdfs
+outbackManual.pdf
+in_pdf.named.txt
+notes_on_format.txt
+output_test.txt
+.*
+__*
