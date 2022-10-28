@@ -4,12 +4,12 @@ Splits PDFs according to key words
 
 ## Current set up
 
-- set up virtual environment in cwd
-  py -m venv ./
-  - execute with source ./bin/activate
-  - exit venv with deactivate
+- set up virtual environment in current working directory with
+  $ python3 -m venv ./
+  - execute virtual environment with $ source ./bin/activate
+    - when done, exit venv with deactivate
 - install PyPDF2 with
-  pip install PyPDF2
+  $ pip install PyPDF2
 
 # Usage
 
