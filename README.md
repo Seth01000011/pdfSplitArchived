@@ -2,6 +2,15 @@
 
 Splits PDFs according to key words
 
+## Current set up
+
+- set up virtual environment in cwd
+  py -m venv ./
+  - execute with source ./bin/activate
+  - exit venv with deactivate
+- install PyPDF2 with
+  pip install PyPDF2
+
 # Usage
 
 - Place pdfSplitter in directory with pdf to be split
@@ -24,11 +33,4 @@ Splits PDFs according to key words
 - poor text encoding or OCR
 - multiple references to same keyword on one page
 
-## Current set up
 
-- set up virtual environment in cwd
-  py -m venv ./
-  - execute with source ./bin/activate
-  - exit venv with deactivate
-- install PyPDF2 with
-  pip install PyPDF2
