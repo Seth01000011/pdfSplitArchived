@@ -22,6 +22,7 @@ Splits PDFs according to keyword(s)
 - or allow user to input list as names? (No)
 - allow keyword to be a list of keywords, and split on finding any
   of them in the document
+- implement multithreading or multiprocessing to reduce load on single cpu core
 
 ## Potential complications
 
