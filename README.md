@@ -1,6 +1,6 @@
 # pdfSplitter
 
-Splits PDFs according to key words
+Splits PDFs according to key words using PyPDF2 library
 
 ## Current set up
 
