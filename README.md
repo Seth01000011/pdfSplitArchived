@@ -1,3 +1,13 @@
+# 2022Nov01
+Unfortunately, PyPDF2 does not have good support in terms of splitting
+a PDF document - The non-example document I was splitting (300MB) resulted
+in multiple 300MB pages. This would balloon the document into well over 10GB.
+Since this library is not a good fit, I am archiving this work and using 
+pymupdf instead.
+
+In addition, PyPDF2 was taking ~1 minute per page of PDF processed - And the
+document was well over 2,000 pages. This simply was not sustainable.
+
 # pdfSplitter
 
 Splits PDFs according to key words using PyPDF2 library
